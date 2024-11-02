@@ -46,6 +46,8 @@
     window.addEventListener('keydown',(e)=>{
         console.log(1);
         console.log(e.key);
+        e.preventDefault(); // default behavior rok diya jo bhi honey wala tha us partticular key ko dbaaney se like f5 se refesh and f12 se broweser dev tools
+
         
         if(e.key==='F12'){
             e.preventDefault();
